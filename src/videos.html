@@ -31,15 +31,6 @@
                         <th>Delete</th>
                      </tr>
                   </thead>
-                  <tbody>
-                     <tr>
-                        <td>Lion King</td>
-                        <td>Kids</td>
-                        <td>2:00</td>
-                        <td><input class="btn btn-default btn-primary" type="button" value="Check Out"></td>
-                        <td><input class="btn btn-default btn-primary" type="button" value="Delete"></td>
-                     </tr>
-                  </tbody>
                </table>
             </div>
          </div>
@@ -50,9 +41,36 @@
 				"dom": 'rtip',
 				"bLengthChange": false,
 				"ordering": true,
+            "processing": true,
+      		"serverSide": true,
 				"scrollCollapse": true,
             "scrollX": true,
-				"info": true
+				"info": true,
+				"ajax": {
+					"url": "../src/php/videos.php"
+				},
+				"columns": [
+				   {
+				               "targets": 3,
+         "render": function(data, type, full, meta){
+            var bool = full[3];
+            if(bool === 0)
+            {
+               return '<input class="btn btn-default btn-primary" type="button" value="Check Out">';
+            }
+            else
+            
+         return '<input class="btn btn-default btn-primary" type="button" value="Check In">';
+         }
+         },
+         				   {
+				               "targets": 4,
+         "render": function(data, type, full, meta){
+            return '<input class="btn btn-default btn-primary" type="button" value="Delete">';
+         }
+				   }
+				   				 
+				   ]
 
 			});
 		});

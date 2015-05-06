@@ -1,4 +1,13 @@
 Start: 
+End: Wed, 6 May 2015 17:07:03 +0000 
+Tasks: added Lion King movie
+Start: 
+End: Wed, 6 May 2015 16:59:00 +0000 
+Tasks: Created skeleton videos page with table
+Start: 
+End: Wed, 6 May 2015 14:21:51 +0000 
+Tasks: Added first work done
+Start: 
 End: Wed, 6 May 2015 14:20:01 +0000 
 Tasks: created scripts folder
 Start: 

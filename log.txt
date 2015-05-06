@@ -1,0 +1,13 @@
+Start: 
+End: Wed, 6 May 2015 14:20:01 +0000 
+Tasks: created scripts folder
+Start: 
+End: Wed, 6 May 2015 14:16:12 +0000 
+Tasks: Created fonts folder
+Start: 
+End: Wed, 6 May 2015 14:14:50 +0000 
+Tasks: created css folder
+Start: 
+End: Wed, 6 May 2015 13:14:28 +0000 
+Tasks: Created log.txt file
+Start: 

@@ -31,6 +31,7 @@
                         <th>Delete</th>
                      </tr>
                   </thead>
+                  <tbody></tbody>
                </table>
             </div>
          </div>
@@ -50,11 +51,31 @@
 					"url": "../src/php/videos.php"
 				},
 				"columns": [
+				   				   {
+				               "targets": 0,
+         "render": function(data){
+            
+         return data;
+         }
+         },
+         				   {
+				               "targets": 1,
+         "render": function(data){
+            
+         return data;
+         }
+         },
+         				   {
+				               "targets": 2,
+         "render": function(data){
+         
+         return data;
+         }
+         },
 				   {
 				               "targets": 3,
-         "render": function(data, type, full, meta){
-            var bool = full[3];
-            if(bool === 0)
+         "render": function(data){
+            if(data === 0)
             {
                return '<input class="btn btn-default btn-primary" type="button" value="Check Out">';
             }
@@ -65,7 +86,7 @@
          },
          				   {
 				               "targets": 4,
-         "render": function(data, type, full, meta){
+         "render": function(){
             return '<input class="btn btn-default btn-primary" type="button" value="Delete">';
          }
 				   }

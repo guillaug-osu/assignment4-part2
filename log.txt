@@ -1,4 +1,28 @@
 Start: 
+End: Thu, 7 May 2015 15:51:41 +0000 
+Tasks: Added javascript files for bootstrap validator
+Start: 
+End: Thu, 7 May 2015 15:51:14 +0000 
+Tasks: Added bootstrap validator css file
+Start: 
+End: Thu, 7 May 2015 15:50:47 +0000 
+Tasks: Added files to remove one row, remove all rows, check if title is available, and checkout title
+Start: 
+End: Thu, 7 May 2015 15:48:35 +0000 
+Tasks: Fixed functionality for add, checkout and delete buttons
+Start: 
+End: Thu, 7 May 2015 03:44:43 +0000 
+Tasks: Added delete all button
+Start: 
+End: Thu, 7 May 2015 03:34:54 +0000 
+Tasks: Fixed sql insert statement
+Start: 
+End: Thu, 7 May 2015 03:34:17 +0000 
+Tasks: Fixed ajax call to mysql database
+Start: 
+End: Thu, 7 May 2015 00:47:47 +0000 
+Tasks: Added work done with buttons
+Start:
 End: Thu, 7 May 2015 00:44:51 +0000 
 Tasks: Fixed checkout and delete buttons
 Start: 

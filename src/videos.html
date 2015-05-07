@@ -22,6 +22,7 @@
             <div class="col-md-8">
                <h3>List of Videos</h3>
                <button class="btn btn-default btn-primary" type="button" data-toggle="modal" data-target="#addVideo">Add Video</button>
+                <button class="btn btn-default btn-primary" type="button">Delete All Videos</button>
                <table class="table table-striped table-bordered" id="videos">
                   <thead>
                      <tr>
@@ -83,7 +84,10 @@ else
          data: {title: title, category: category, length: length},
          success: function(response) {
          if (response == 1) {
-               console.log("failure");
+               console.log("success");
+               var table = $('#videos').DataTable();
+               
+               table.draw();
          }
          else
          {

@@ -1,4 +1,16 @@
 Start: 
+End: Thu, 7 May 2015 00:44:51 +0000 
+Tasks: Fixed checkout and delete buttons
+Start: 
+End: Wed, 6 May 2015 18:02:13 +0000 
+Tasks: changed if statement in render function
+Start: 
+End: Wed, 6 May 2015 17:59:10 +0000 
+Tasks: fixed sql query
+Start: 
+End: Wed, 6 May 2015 17:49:59 +0000 
+Tasks: added data from database
+Start: 
 End: Wed, 6 May 2015 17:07:03 +0000 
 Tasks: added Lion King movie
 Start: 
